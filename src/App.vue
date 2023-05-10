@@ -4,8 +4,13 @@
 <template>
   <!-- 一级路由出口组件 -->
   <router-view/>
+  <div class="test">
+    test sass
+  </div>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+.test{
+  color: $priceColor;
+}
 </style>
