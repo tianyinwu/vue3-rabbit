@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <el-button type="primary">Default11111s</el-button>
+  <el-button type="success">Default11111s</el-button>
 </template>
 
 <style scoped>
