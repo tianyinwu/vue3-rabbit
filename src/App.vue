@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <el-button type="success">Default11111s</el-button>
+  <!-- 一级路由出口组件 -->
+  <router-view/>
 </template>
 
 <style scoped>
