@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const httpInstance = axios.create({
-  // baseURL:'http://pcapi-xiaotuxian-front-devrest.itheima.net',
-  baseURL: "https://api.uixsj.cn/hitokoto/get?type=social",
+  baseURL:'http://pcapi-xiaotuxian-front-devrest.itheima.net',
+//   baseURL: "https://api.uixsj.cn/hitokoto/get?type=social",  // 这是返回一句话的url
   timeout: 5000,
 });
 
